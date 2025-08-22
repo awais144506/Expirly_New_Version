@@ -84,7 +84,7 @@ export default function GetStarted() {
           <View className="items-center w-full space-y-4">
             <Text className="text-center text-lg font-semibold text-blue-900 leading-6 mx-3 mb-[20px]">
               Keep track of all your important documents and get reminded before
-              they expire, so you can focus on what matters most.
+              they expire, so you can focus on what matters most
             </Text>
 
             <TouchableOpacity

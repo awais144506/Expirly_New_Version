@@ -1,6 +1,8 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
     "strict": true,
     "paths": {
       "@/*": [
@@ -12,7 +14,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts",
+    "app/GetStartedScreen.js",
+    "components/ui/StatusCircle.js","expo-env.d.ts",
     "nativewind-env.d.ts"
   ]
 }
